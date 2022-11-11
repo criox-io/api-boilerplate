@@ -1,0 +1,16 @@
+{
+    "app": {
+        "port": 4001
+    },
+    "mongodb": {
+        "url": "mongodb://localhost:27017/collection",
+        "config": {
+            "authSource": "admin",
+            "user": "root",
+            "pass": "example"
+        }
+    },
+    "jwt": {
+        "secret": "SECRET1234"
+    }
+}
